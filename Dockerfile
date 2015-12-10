@@ -22,4 +22,4 @@ VOLUME ["/etc/mosquitto/", "/var/data/mosquitto", "/var/log/mosquitto", "/opt/ja
 
 EXPOSE 22 1883
 
-CMD ["/usr/bin/supervisord"]
+CMD ["/usr/bin/supervisord", "--nodaemon"]
