@@ -6,6 +6,9 @@ RUN cat /etc/issue
 RUN env
 RUN /sbin/ip addr
 
+COPY docker/supervisord-tests.conf /etc/supervisord/
+COPY docker/supervisord-tests.conf.d /etc/supervisord-tests/
+
 WORKDIR /opt/janitoo/src
 
 RUN make clone module=janitoo_hostsensor && \
