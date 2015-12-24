@@ -24,14 +24,14 @@ janitoo_nginx
     :alt: Travis status
 
 
-- janitoo_mosquitto
+janitoo_mosquitto
 
     .. image:: https://travis-ci.org/bibi21000/janitoo_mosquitto.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_mosquitto
         :alt: Travis status
 
 
-- janitoo
+janitoo
 
     .. image:: https://travis-ci.org/bibi21000/janitoo.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo
