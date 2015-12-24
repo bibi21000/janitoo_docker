@@ -24,28 +24,26 @@ janitoo_nginx
     :alt: Travis status
 
 
-janitoo_mosquitto
------------------
+- janitoo_mosquitto
 
-.. image:: https://travis-ci.org/bibi21000/janitoo_mosquitto.svg?branch=master
-    :target: https://travis-ci.org/bibi21000/janitoo_mosquitto
-    :alt: Travis status
+    .. image:: https://travis-ci.org/bibi21000/janitoo_mosquitto.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_mosquitto
+        :alt: Travis status
 
 
-janitoo
--------
+- janitoo
 
-.. image:: https://travis-ci.org/bibi21000/janitoo.svg?branch=master
-    :target: https://travis-ci.org/bibi21000/janitoo
-    :alt: Travis status
+    .. image:: https://travis-ci.org/bibi21000/janitoo.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo
+        :alt: Travis status
 
-.. image:: https://circleci.com/gh/bibi21000/janitoo.png?style=shield&circle-token=ef1e8a7c0d3b90e9873bf5189f0d2eaafca6ff8b
-    :target: https://circleci.com/gh/bibi21000/janitoo
-    :alt: Circle status
+    .. image:: https://circleci.com/gh/bibi21000/janitoo.png?style=shield&circle-token=ef1e8a7c0d3b90e9873bf5189f0d2eaafca6ff8b
+        :target: https://circleci.com/gh/bibi21000/janitoo
+        :alt: Circle status
 
-.. image:: https://coveralls.io/repos/bibi21000/janitoo/badge.svg?branch=master&service=github
-    :target: https://coveralls.io/github/bibi21000/janitoo?branch=master
-    :alt: Coveralls results
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo?branch=master
+        :alt: Coveralls results
 
 
 janitoo_db
@@ -146,6 +144,7 @@ janitoo_manager_proxy
 .. image:: https://coveralls.io/repos/bibi21000/janitoo_manager_proxy/badge.svg?branch=master&service=github
     :target: https://coveralls.io/github/bibi21000/janitoo_manager_proxy?branch=master
     :alt: Coveralls results
+
 
 
 Third party modules
