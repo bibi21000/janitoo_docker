@@ -14,10 +14,15 @@ WORKDIR /opt/janitoo/src
 RUN make clone module=janitoo_hostsensor && \
     make clone module=janitoo_hostsensor_psutil && \
     make clone module=janitoo_hostsensor_lmsensor && \
+    make clone module=janitoo_hostsensor_raspberry && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 
 RUN make clone module=janitoo_nut && \
+    apt-get clean && \
+    [ -d /root/.cache ] && rm -Rf /root/.cache/*
+
+RUN make clone module=janitoo_raspberry && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 

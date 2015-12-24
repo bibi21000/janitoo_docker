@@ -5,8 +5,8 @@ The README file
 This file will be published on your github account
 
 
-Modules
-=======
+Base modules
+============
 
 janitoo_pki
 -----------
@@ -147,3 +147,93 @@ janitoo_manager_proxy
     :target: https://coveralls.io/github/bibi21000/janitoo_manager_proxy?branch=master
     :alt: Coveralls results
 
+
+RUN make clone module=janitoo_hostsensor && \
+    make clone module= && \
+    make clone module= && \
+    make clone module=janitoo_hostsensor_raspberry && \
+    apt-get clean && \
+    [ -d /root/.cache ] && rm -Rf /root/.cache/*
+
+RUN make clone module= && \
+    apt-get clean && \
+    [ -d /root/.cache ] && rm -Rf /root/.cache/*
+
+RUN make clone module= && \
+    apt-get clean && \
+    [ -d /root/.cache ] && rm -Rf /root/.cache/*
+
+
+Third party modules
+===================
+
+janitoo_hostsensor
+------------------
+
+.. image:: https://travis-ci.org/bibi21000/janitoo_hostsensor.svg?branch=master
+    :target: https://travis-ci.org/bibi21000/janitoo_hostsensor
+    :alt: Travis status
+
+.. image:: https://coveralls.io/repos/bibi21000/janitoo_hostsensor/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/bibi21000/janitoo_hostsensor?branch=master
+    :alt: Coveralls results
+
+
+janitoo_hostsensor_psutil
+-------------------------
+
+.. image:: https://travis-ci.org/bibi21000/janitoo_hostsensor_psutil.svg?branch=master
+    :target: https://travis-ci.org/bibi21000/janitoo_hostsensor_psutil
+    :alt: Travis status
+
+.. image:: https://coveralls.io/repos/bibi21000/janitoo_hostsensor_psutil/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/bibi21000/janitoo_hostsensor_psutil?branch=master
+    :alt: Coveralls results
+
+
+janitoo_hostsensor_lmsensor
+---------------------------
+
+.. image:: https://travis-ci.org/bibi21000/janitoo_hostsensor_lmsensor.svg?branch=master
+    :target: https://travis-ci.org/bibi21000/janitoo_hostsensor_lmsensor
+    :alt: Travis status
+
+.. image:: https://coveralls.io/repos/bibi21000/janitoo_hostsensor_lmsensor/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/bibi21000/janitoo_hostsensor_lmsensor?branch=master
+    :alt: Coveralls results
+
+
+janitoo_hostsensor_raspberry
+----------------------------
+
+.. image:: https://travis-ci.org/bibi21000/janitoo_hostsensor_raspberry.svg?branch=master
+    :target: https://travis-ci.org/bibi21000/janitoo_hostsensor_raspberry
+    :alt: Travis status
+
+.. image:: https://coveralls.io/repos/bibi21000/janitoo_hostsensor_raspberry/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/bibi21000/janitoo_hostsensor_raspberry?branch=master
+    :alt: Coveralls results
+
+
+janitoo_nut
+-----------
+
+.. image:: https://travis-ci.org/bibi21000/janitoo_nut.svg?branch=master
+    :target: https://travis-ci.org/bibi21000/janitoo_nut
+    :alt: Travis status
+
+.. image:: https://coveralls.io/repos/bibi21000/janitoo_nut/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/bibi21000/janitoo_nut?branch=master
+    :alt: Coveralls results
+
+
+janitoo_raspberry
+-----------------
+
+.. image:: https://travis-ci.org/bibi21000/janitoo_raspberry.svg?branch=master
+    :target: https://travis-ci.org/bibi21000/janitoo_raspberry
+    :alt: Travis status
+
+.. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/bibi21000/janitoo_raspberry?branch=master
+    :alt: Coveralls results
