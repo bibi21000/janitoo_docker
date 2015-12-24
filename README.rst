@@ -17,7 +17,6 @@ janitoo_pki
 
 
 janitoo_nginx
--------------
 
 .. image:: https://travis-ci.org/bibi21000/janitoo_nginx.svg?branch=master
     :target: https://travis-ci.org/bibi21000/janitoo_nginx
@@ -26,9 +25,9 @@ janitoo_nginx
 
 janitoo_mosquitto
 
-    .. image:: https://travis-ci.org/bibi21000/janitoo_mosquitto.svg?branch=master
-        :target: https://travis-ci.org/bibi21000/janitoo_mosquitto
-        :alt: Travis status
+.. image:: https://travis-ci.org/bibi21000/janitoo_mosquitto.svg?branch=master
+    :target: https://travis-ci.org/bibi21000/janitoo_mosquitto
+    :alt: Travis status
 
 
 janitoo
@@ -47,19 +46,17 @@ janitoo
 
 
 janitoo_db
-----------
 
-.. image:: https://travis-ci.org/bibi21000/janitoo_db.svg?branch=master
-    :target: https://travis-ci.org/bibi21000/janitoo_db
-    :alt: Travis status
+    .. image:: https://travis-ci.org/bibi21000/janitoo_db.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_db
+        :alt: Travis status
 
-.. image:: https://coveralls.io/repos/bibi21000/janitoo_db/badge.svg?branch=master&service=github
-    :target: https://coveralls.io/github/bibi21000/janitoo_db?branch=master
-    :alt: Coveralls results
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_db/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_db?branch=master
+        :alt: Coveralls results
 
 
 janitoo_db_full
----------------
 
 .. image:: https://travis-ci.org/bibi21000/janitoo_db_full.svg?branch=master
     :target: https://travis-ci.org/bibi21000/janitoo_db_full
