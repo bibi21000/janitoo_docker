@@ -6,8 +6,8 @@ RUN cat /etc/issue
 RUN env
 RUN /sbin/ip addr
 
-COPY docker/supervisord.conf.d/ /etc/supervisord/supervisord.conf.d/
-COPY docker/supervisord-tests.conf.d/ /etc/supervisord/supervisord-tests.conf.d/
+COPY docker/supervisor.conf.d/ /etc/supervisor/janitoo.conf.d/
+COPY docker/supervisor-tests.conf.d/ /etc/supervisor/janitoo-tests.conf.d/
 
 WORKDIR /opt/janitoo/src
 
