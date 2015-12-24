@@ -148,22 +148,6 @@ janitoo_manager_proxy
     :alt: Coveralls results
 
 
-RUN make clone module=janitoo_hostsensor && \
-    make clone module= && \
-    make clone module= && \
-    make clone module=janitoo_hostsensor_raspberry && \
-    apt-get clean && \
-    [ -d /root/.cache ] && rm -Rf /root/.cache/*
-
-RUN make clone module= && \
-    apt-get clean && \
-    [ -d /root/.cache ] && rm -Rf /root/.cache/*
-
-RUN make clone module= && \
-    apt-get clean && \
-    [ -d /root/.cache ] && rm -Rf /root/.cache/*
-
-
 Third party modules
 ===================
 
