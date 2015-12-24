@@ -66,16 +66,15 @@ janitoo_db_full :
         :alt: Coveralls results
 
 
-janitoo_layouts
----------------
+janitoo_layouts :
 
-.. image:: https://travis-ci.org/bibi21000/janitoo_layouts.svg?branch=master
-    :target: https://travis-ci.org/bibi21000/janitoo_layouts
-    :alt: Travis status
+    .. image:: https://travis-ci.org/bibi21000/janitoo_layouts.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_layouts
+        :alt: Travis status
 
-.. image:: https://coveralls.io/repos/bibi21000/janitoo_layouts/badge.svg?branch=master&service=github
-    :target: https://coveralls.io/github/bibi21000/janitoo_layouts?branch=master
-    :alt: Coveralls results
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_layouts/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_layouts?branch=master
+        :alt: Coveralls results
 
 
 janitoo_datalog_rrd :
