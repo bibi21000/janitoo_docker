@@ -22,6 +22,34 @@ janitoo_nginx :
         :alt: Travis status
 
 
+janitoo_mysql :
+
+    .. image:: https://travis-ci.org/bibi21000/janitoo_mysql.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_mysql
+        :alt: Travis status
+
+
+janitoo_mysql_client :
+
+    .. image:: https://travis-ci.org/bibi21000/janitoo_mysql_client.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_mysql_client
+        :alt: Travis status
+
+
+janitoo_postgresql :
+
+    .. image:: https://travis-ci.org/bibi21000/janitoo_postgresql.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_postgresql
+        :alt: Travis status
+
+
+janitoo_postgresql_client :
+
+    .. image:: https://travis-ci.org/bibi21000/janitoo_postgresql_client.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_postgresql_client
+        :alt: Travis status
+
+
 janitoo_mosquitto :
 
     .. image:: https://travis-ci.org/bibi21000/janitoo_mosquitto.svg?branch=master
