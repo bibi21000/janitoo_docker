@@ -57,6 +57,9 @@ janitoo_mosquitto :
         :alt: Travis status
 
 
+Core modules
+============
+
 janitoo :
 
     .. image:: https://travis-ci.org/bibi21000/janitoo.svg?branch=master
