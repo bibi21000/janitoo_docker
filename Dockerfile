@@ -15,6 +15,7 @@ RUN make clone module=janitoo_hostsensor && \
     make clone module=janitoo_hostsensor_psutil && \
     make clone module=janitoo_hostsensor_lmsensor && \
     make clone module=janitoo_hostsensor_raspberry && \
+    make docker-inst module=janitoo_hostsensor && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 
