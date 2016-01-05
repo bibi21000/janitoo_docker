@@ -5,6 +5,18 @@ The README file
 This file will be published on your github account
 
 
+Docker
+======
+
+.. image:: https://img.shields.io/imagelayers/image-size/bibi21000/janitoo/latest.svg
+    :target: https://hub.docker.com/r/bibi21000/janitoo/
+    :alt: Docker size
+
+.. image:: https://img.shields.io/imagelayers/layers/bibi21000/janitoo/latest.svg
+    :target: https://hub.docker.com/r/bibi21000/janitoo/
+    :alt: Docker size
+
+
 Base modules
 ============
 
