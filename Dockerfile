@@ -23,7 +23,15 @@ RUN make clone module=janitoo_nut && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 
-RUN make clone module=janitoo_raspberry && \
+RUN make pull module=janitoo_raspberry && \
+    make pull module=janitoo_raspberry_dht && \
+    make pull module=janitoo_raspberry_gpio && \
+    make pull module=janitoo_raspberry_i2c && \
+    make pull module=janitoo_raspberry_i2c_hat && \
+    make pull module=janitoo_raspberry_i2c_bmp && \
+    make pull module=janitoo_raspberry_1wire && \
+    make pull module=janitoo_raspberry_camera && \
+    make pull module=janitoo_raspberry_fishtank && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 
