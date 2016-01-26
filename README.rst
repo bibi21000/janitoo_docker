@@ -179,7 +179,6 @@ janitoo_manager_proxy :
         :alt: Coveralls results
 
 
-
 Third party modules
 ===================
 
