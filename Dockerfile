@@ -43,8 +43,8 @@ RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_hat.git" 
     make module=janitoo_raspberry_i2c_hat develop && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_hat.git"&& \
-    make module=janitoo_raspberry_i2c_hat develop && \
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_bmp.git"&& \
+    make module=janitoo_raspberry_i2c_bmp develop && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_1wire.git" && \
