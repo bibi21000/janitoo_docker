@@ -23,7 +23,8 @@ RUN make clone module=janitoo_nut && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 
-RUN make clone repo="https://github.com/bibi21000/janitoo_raspberry.git" && \
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry.git" && \
+    make -C janitoo_raspberry travis-deps && make -C janitoo_raspberry develop && \
     make pull repo="https://github.com/bibi21000/janitoo_raspberry_dht.git" && \
     make -C janitoo_raspberry_dht travis-deps && make -C janitoo_raspberry_dht develop && \
     make pull repo="https://github.com/bibi21000/janitoo_raspberry_gpio.git" && \
