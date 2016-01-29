@@ -23,38 +23,31 @@ RUN make clone module=janitoo_nut && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry.git" && \
-    make module=janitoo_raspberry develop && \
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry.git" && make module=janitoo_raspberry travis-deps && make module=janitoo_raspberry develop && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_dht.git" && \
-    make module=janitoo_raspberry_dht develop && \
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_dht.git" && make module=janitoo_raspberry_dht travis-deps && make module=janitoo_raspberry_dht develop && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_gpio.git" && \
-    make module=janitoo_raspberry_gpio develop && \
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_gpio.git" && make module=janitoo_raspberry_gpio travis-deps && make module=janitoo_raspberry_gpio develop && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c.git" && \
-    make module=janitoo_raspberry_i2c develop && \
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c.git" && make module=janitoo_raspberry_i2c travis-deps && make module=janitoo_raspberry_i2c develop && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_hat.git" && \
-    make module=janitoo_raspberry_i2c_hat develop && \
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_hat.git" && make module=janitoo_raspberry_i2c_hat travis-deps && make module=janitoo_raspberry_i2c_hat develop && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_bmp.git"&& \
-    make module=janitoo_raspberry_i2c_bmp develop && \
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_bmp.git" && make module=janitoo_raspberry_i2c_bmp travis-deps  && make module=janitoo_raspberry_i2c_bmp develop && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_1wire.git" && \
-    make module=janitoo_raspberry_1wire develop && \
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_1wire.git" && make module=janitoo_raspberry_1wire travis-deps  && make module=janitoo_raspberry_1wire develop && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_camera.git" && \
-    make module=janitoo_raspberry_camera develop && \
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_camera.git" && make module=janitoo_raspberry_camera travis-deps  && make module=janitoo_raspberry_camera develop && \
     apt-get clean && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
+
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_fishtank.git" && \
     make module=janitoo_raspberry_fishtank develop && \
     apt-get clean && \
