@@ -215,17 +215,6 @@ janitoo_hostsensor_lmsensor :
         :alt: Coveralls results
 
 
-janitoo_hostsensor_raspberry :
-
-    .. image:: https://travis-ci.org/bibi21000/janitoo_hostsensor_raspberry.svg?branch=master
-        :target: https://travis-ci.org/bibi21000/janitoo_hostsensor_raspberry
-        :alt: Travis status
-
-    .. image:: https://coveralls.io/repos/bibi21000/janitoo_hostsensor_raspberry/badge.svg?branch=master&service=github
-        :target: https://coveralls.io/github/bibi21000/janitoo_hostsensor_raspberry?branch=master
-        :alt: Coveralls results
-
-
 janitoo_nut :
 
     .. image:: https://travis-ci.org/bibi21000/janitoo_nut.svg?branch=master
@@ -234,6 +223,21 @@ janitoo_nut :
 
     .. image:: https://coveralls.io/repos/bibi21000/janitoo_nut/badge.svg?branch=master&service=github
         :target: https://coveralls.io/github/bibi21000/janitoo_nut?branch=master
+        :alt: Coveralls results
+
+
+Raspberry modules
+=================
+
+
+janitoo_hostsensor_raspberry :
+
+    .. image:: https://travis-ci.org/bibi21000/janitoo_hostsensor_raspberry.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_hostsensor_raspberry
+        :alt: Travis status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_hostsensor_raspberry/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_hostsensor_raspberry?branch=master
         :alt: Coveralls results
 
 
