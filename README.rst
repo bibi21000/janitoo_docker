@@ -303,10 +303,18 @@ janitoo_raspberry_camera :
         :alt: Coveralls results
 
 
+Raspberry appliance servers
+===========================
+
+
 janitoo_raspberry_fishtank :
     .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_fishtank.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_raspberry_fishtank
         :alt: Travis status
+
+    .. image:: https://circleci.com/gh/bibi21000/janitoo_raspberry_fishtank.png?style=shield
+        :target: https://circleci.com/gh/bibi21000/janitoo_raspberry_fishtank
+        :alt: Circle status
 
     .. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry_fishtank/badge.svg?branch=master&service=github
         :target: https://coveralls.io/github/bibi21000/janitoo_raspberry_fishtank?branch=master
