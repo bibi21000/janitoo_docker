@@ -1,13 +1,3 @@
-===============
-The README file
-===============
-
-This file will be published on your github account
-
-
-Docker
-======
-
 .. image:: https://img.shields.io/imagelayers/image-size/bibi21000/janitoo/latest.svg
     :target: https://hub.docker.com/r/bibi21000/janitoo/
     :alt: Docker size
@@ -15,6 +5,10 @@ Docker
 .. image:: https://img.shields.io/imagelayers/layers/bibi21000/janitoo/latest.svg
     :target: https://hub.docker.com/r/bibi21000/janitoo/
     :alt: Docker size
+
+====================
+Janitoo docker image
+====================
 
 
 Base modules
@@ -24,6 +18,7 @@ janitoo_pki :
     .. image:: https://travis-ci.org/bibi21000/janitoo_pki.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_pki
         :alt: Travis status
+
 
 janitoo_nginx :
     .. image:: https://travis-ci.org/bibi21000/janitoo_nginx.svg?branch=master
