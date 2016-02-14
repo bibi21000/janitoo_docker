@@ -20,9 +20,10 @@ Docker
 Base modules
 ============
 
-janitoo_pki : .. image:: https://travis-ci.org/bibi21000/janitoo_pki.svg?branch=master
-                 :target: https://travis-ci.org/bibi21000/janitoo_pki
-                 :alt: Travis status
+janitoo_pki :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_pki.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_pki
+        :alt: Travis status
 
 janitoo_nginx :
 
