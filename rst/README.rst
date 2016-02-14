@@ -26,42 +26,36 @@ janitoo_pki :
         :alt: Travis status
 
 janitoo_nginx :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_nginx.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_nginx
         :alt: Travis status
 
 
 janitoo_mysql :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_mysql.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_mysql
         :alt: Travis status
 
 
 janitoo_mysql_client :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_mysql_client.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_mysql_client
         :alt: Travis status
 
 
 janitoo_postgresql :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_postgresql.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_postgresql
         :alt: Travis status
 
 
 janitoo_postgresql_client :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_postgresql_client.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_postgresql_client
         :alt: Travis status
 
 
 janitoo_mosquitto :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_mosquitto.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_mosquitto
         :alt: Travis status
@@ -71,7 +65,6 @@ Core modules
 ============
 
 janitoo :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo
         :alt: Travis status
@@ -86,7 +79,6 @@ janitoo :
 
 
 janitoo_db :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_db.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_db
         :alt: Travis status
@@ -97,7 +89,6 @@ janitoo_db :
 
 
 janitoo_db_full :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_db_full.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_db_full
         :alt: Travis status
@@ -108,7 +99,6 @@ janitoo_db_full :
 
 
 janitoo_thermal :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_thermal.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_thermal
         :alt: Travis status
@@ -123,7 +113,6 @@ janitoo_thermal :
 
 
 janitoo_layouts :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_layouts.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_layouts
         :alt: Travis status
@@ -134,7 +123,6 @@ janitoo_layouts :
 
 
 janitoo_datalog_rrd :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_datalog_rrd.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_datalog_rrd
         :alt: Travis status
@@ -145,7 +133,6 @@ janitoo_datalog_rrd :
 
 
 janitoo_flask :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_flask.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_flask
         :alt: Travis status
@@ -156,7 +143,6 @@ janitoo_flask :
 
 
 janitoo_flask_socketio :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_flask_socketio.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_flask_socketio
         :alt: Travis status
@@ -167,7 +153,6 @@ janitoo_flask_socketio :
 
 
 janitoo_manager :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_manager.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_manager
         :alt: Travis status
@@ -182,7 +167,6 @@ janitoo_manager :
 
 
 janitoo_manager_proxy :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_manager_proxy.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_manager_proxy
         :alt: Travis status
@@ -196,7 +180,6 @@ Third party modules
 ===================
 
 janitoo_hostsensor :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_hostsensor.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_hostsensor
         :alt: Travis status
@@ -207,7 +190,6 @@ janitoo_hostsensor :
 
 
 janitoo_hostsensor_psutil :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_hostsensor_psutil.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_hostsensor_psutil
         :alt: Travis status
@@ -218,7 +200,6 @@ janitoo_hostsensor_psutil :
 
 
 janitoo_hostsensor_lmsensor :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_hostsensor_lmsensor.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_hostsensor_lmsensor
         :alt: Travis status
@@ -229,7 +210,6 @@ janitoo_hostsensor_lmsensor :
 
 
 janitoo_nut :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_nut.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_nut
         :alt: Travis status
@@ -244,7 +224,6 @@ Raspberry modules
 
 
 janitoo_hostsensor_raspberry :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_hostsensor_raspberry.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_hostsensor_raspberry
         :alt: Travis status
@@ -255,7 +234,6 @@ janitoo_hostsensor_raspberry :
 
 
 janitoo_raspberry :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_raspberry
         :alt: Travis status
@@ -266,7 +244,6 @@ janitoo_raspberry :
 
 
 janitoo_raspberry_i2c :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c
         :alt: Travis status
@@ -277,7 +254,6 @@ janitoo_raspberry_i2c :
 
 
 janitoo_raspberry_i2c_hat :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_hat.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_hat
         :alt: Travis status
@@ -288,7 +264,6 @@ janitoo_raspberry_i2c_hat :
 
 
 janitoo_raspberry_i2c_bmp :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_bmp.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_bmp
         :alt: Travis status
@@ -299,7 +274,6 @@ janitoo_raspberry_i2c_bmp :
 
 
 janitoo_raspberry_dht :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_dht.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_raspberry_dht
         :alt: Travis status
@@ -310,7 +284,6 @@ janitoo_raspberry_dht :
 
 
 janitoo_raspberry_gpio :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_gpio.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_raspberry_gpio
         :alt: Travis status
@@ -321,7 +294,6 @@ janitoo_raspberry_gpio :
 
 
 janitoo_raspberry_camera :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_camera.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_raspberry_camera
         :alt: Travis status
@@ -332,7 +304,6 @@ janitoo_raspberry_camera :
 
 
 janitoo_raspberry_fishtank :
-
     .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_fishtank.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_raspberry_fishtank
         :alt: Travis status
