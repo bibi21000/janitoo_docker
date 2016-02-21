@@ -92,6 +92,10 @@ janitoo_db_full :
         :target: https://travis-ci.org/bibi21000/janitoo_db_full
         :alt: Travis status
 
+    .. image:: https://circleci.com/gh/bibi21000/janitoo_db_full.png?style=shield
+        :target: https://circleci.com/gh/bibi21000/janitoo_db_full
+        :alt: Circle status
+
     .. image:: https://coveralls.io/repos/bibi21000/janitoo_db_full/badge.svg?branch=master&service=github
         :target: https://coveralls.io/github/bibi21000/janitoo_db_full?branch=master
         :alt: Coveralls results
