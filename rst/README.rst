@@ -254,33 +254,23 @@ janitoo_raspberry :
         :alt: Coveralls results
 
 
-janitoo_raspberry_i2c :
-    .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c.svg?branch=master
-        :target: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c
+janitoo_raspberry_1wire :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_1wire.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_raspberry_1wire
         :alt: Travis status
 
-    .. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry_i2c/badge.svg?branch=master&service=github
-        :target: https://coveralls.io/github/bibi21000/janitoo_raspberry_i2c?branch=master
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry_1wire/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_raspberry_1wire?branch=master
         :alt: Coveralls results
 
 
-janitoo_raspberry_i2c_hat :
-    .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_hat.svg?branch=master
-        :target: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_hat
+janitoo_raspberry_camera :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_camera.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_raspberry_camera
         :alt: Travis status
 
-    .. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry_i2c_hat/badge.svg?branch=master&service=github
-        :target: https://coveralls.io/github/bibi21000/janitoo_raspberry_i2c_hat?branch=master
-        :alt: Coveralls results
-
-
-janitoo_raspberry_i2c_bmp :
-    .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_bmp.svg?branch=master
-        :target: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_bmp
-        :alt: Travis status
-
-    .. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry_i2c_bmp/badge.svg?branch=master&service=github
-        :target: https://coveralls.io/github/bibi21000/janitoo_raspberry_i2c_bmp?branch=master
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry_camera/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_raspberry_camera?branch=master
         :alt: Coveralls results
 
 
@@ -304,13 +294,33 @@ janitoo_raspberry_gpio :
         :alt: Coveralls results
 
 
-janitoo_raspberry_camera :
-    .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_camera.svg?branch=master
-        :target: https://travis-ci.org/bibi21000/janitoo_raspberry_camera
+janitoo_raspberry_i2c :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c
         :alt: Travis status
 
-    .. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry_camera/badge.svg?branch=master&service=github
-        :target: https://coveralls.io/github/bibi21000/janitoo_raspberry_camera?branch=master
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry_i2c/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_raspberry_i2c?branch=master
+        :alt: Coveralls results
+
+
+janitoo_raspberry_i2c_bmp :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_bmp.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_bmp
+        :alt: Travis status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry_i2c_bmp/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_raspberry_i2c_bmp?branch=master
+        :alt: Coveralls results
+
+
+janitoo_raspberry_i2c_hat :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_hat.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_hat
+        :alt: Travis status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry_i2c_hat/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_raspberry_i2c_hat?branch=master
         :alt: Coveralls results
 
 
