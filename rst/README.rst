@@ -87,6 +87,20 @@ janitoo_db :
         :alt: Coveralls results
 
 
+janitoo_factory :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_factory.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_factory
+        :alt: Travis status
+
+    .. image:: https://circleci.com/gh/bibi21000/janitoo_factory.png?style=shield
+        :target: https://circleci.com/gh/bibi21000/janitoo_factory
+        :alt: Circle status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_factory/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_factory?branch=master
+        :alt: Coveralls results
+
+
 janitoo_db_full :
     .. image:: https://travis-ci.org/bibi21000/janitoo_db_full.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_db_full
