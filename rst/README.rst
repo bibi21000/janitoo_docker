@@ -153,6 +153,16 @@ janitoo_datalog_rrd :
         :alt: Coveralls results
 
 
+janitoo_bluez :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_bluez.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_bluez
+        :alt: Travis status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_bluez/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_bluez?branch=master
+        :alt: Coveralls results
+
+
 janitoo_flask :
     .. image:: https://travis-ci.org/bibi21000/janitoo_flask.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_flask

@@ -22,6 +22,10 @@ RUN make clone module=janitoo_nut && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 
+RUN make clone module=janitoo_bluez && \
+    apt-get clean && rm -Rf /tmp/*||true && \
+    [ -d /root/.cache ] && rm -Rf /root/.cache/*
+
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry.git" && make module=janitoo_raspberry docker-deps && make module=janitoo_raspberry develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
