@@ -159,13 +159,31 @@ janitoo_datalog_rrd :
         :alt: Coveralls results
 
 
-janitoo_bluez :
-    .. image:: https://travis-ci.org/bibi21000/janitoo_bluez.svg?branch=master
-        :target: https://travis-ci.org/bibi21000/janitoo_bluez
+janitoo_events :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_events.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_events
         :alt: Travis status
 
-    .. image:: https://coveralls.io/repos/bibi21000/janitoo_bluez/badge.svg?branch=master&service=github
-        :target: https://coveralls.io/github/bibi21000/janitoo_bluez?branch=master
+    .. image:: https://circleci.com/gh/bibi21000/janitoo_events.png?style=shield
+        :target: https://circleci.com/gh/bibi21000/janitoo_events
+        :alt: Circle status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_events/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_events?branch=master
+        :alt: Coveralls results
+
+
+janitoo_events_cron :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_events_cron.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_events_cron
+        :alt: Travis status
+
+    .. image:: https://circleci.com/gh/bibi21000/janitoo_events_cron.png?style=shield
+        :target: https://circleci.com/gh/bibi21000/janitoo_events_cron
+        :alt: Circle status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_events_cron/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_events_cron?branch=master
         :alt: Coveralls results
 
 
@@ -215,6 +233,26 @@ janitoo_manager_proxy :
 
 Third party modules
 ===================
+
+janitoo_roomba :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_roomba.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_roomba
+        :alt: Travis status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_roomba/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_roomba?branch=master
+        :alt: Coveralls results
+
+
+janitoo_bluez :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_bluez.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_bluez
+        :alt: Travis status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_bluez/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_bluez?branch=master
+        :alt: Coveralls results
+
 
 janitoo_hostsensor :
     .. image:: https://travis-ci.org/bibi21000/janitoo_hostsensor.svg?branch=master
