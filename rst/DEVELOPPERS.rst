@@ -90,6 +90,11 @@ Docker operations
 
 We also need to update the depency_links in all setup.py to set it to te docker IP (or name)
 
+- update git content from github :
+ - by docker
+ - on user side
+ - automatique update version
+
 Scripts
 =======
 

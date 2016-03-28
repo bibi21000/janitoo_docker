@@ -56,6 +56,12 @@ janitoo_mosquitto :
         :alt: Travis status
 
 
+janitoo_gogs :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_gogs.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_gogs
+        :alt: Travis status
+
+
 Core modules
 ============
 
