@@ -164,10 +164,6 @@ janitoo_events :
         :target: https://travis-ci.org/bibi21000/janitoo_events
         :alt: Travis status
 
-    .. image:: https://circleci.com/gh/bibi21000/janitoo_events.png?style=shield
-        :target: https://circleci.com/gh/bibi21000/janitoo_events
-        :alt: Circle status
-
     .. image:: https://coveralls.io/repos/bibi21000/janitoo_events/badge.svg?branch=master&service=github
         :target: https://coveralls.io/github/bibi21000/janitoo_events?branch=master
         :alt: Coveralls results
@@ -177,10 +173,6 @@ janitoo_events_cron :
     .. image:: https://travis-ci.org/bibi21000/janitoo_events_cron.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_events_cron
         :alt: Travis status
-
-    .. image:: https://circleci.com/gh/bibi21000/janitoo_events_cron.png?style=shield
-        :target: https://circleci.com/gh/bibi21000/janitoo_events_cron
-        :alt: Circle status
 
     .. image:: https://coveralls.io/repos/bibi21000/janitoo_events_cron/badge.svg?branch=master&service=github
         :target: https://coveralls.io/github/bibi21000/janitoo_events_cron?branch=master
