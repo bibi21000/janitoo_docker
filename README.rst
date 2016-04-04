@@ -179,6 +179,16 @@ janitoo_events_cron :
         :alt: Coveralls results
 
 
+janitoo_events_earth :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_events_earth.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_events_earth
+        :alt: Travis status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_events_earth/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_events_earth?branch=master
+        :alt: Coveralls results
+
+
 janitoo_flask :
     .. image:: https://travis-ci.org/bibi21000/janitoo_flask.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_flask
