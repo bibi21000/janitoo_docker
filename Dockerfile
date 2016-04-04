@@ -57,13 +57,16 @@ RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_1wire.git" &&
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_dht.git" && make module=janitoo_raspberry_dht docker-deps && make module=janitoo_raspberry_dht develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2s_ads1x15.git" && make module=janitoo_raspberry_i2s_ads1x15 docker-deps  && make module=janitoo_raspberry_i2s_ads1x15 develop && \
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_ads1x15.git" && make module=janitoo_raspberry_i2c_ads1x15 docker-deps  && make module=janitoo_raspberry_i2c_ads1x15 develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_bmp.git" && make module=janitoo_raspberry_i2c_bmp docker-deps  && make module=janitoo_raspberry_i2c_bmp develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2s_bno055.git" && make module=janitoo_raspberry_i2s_bno055 docker-deps  && make module=janitoo_raspberry_i2s_bno055 develop && \
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_bno055.git" && make module=janitoo_raspberry_i2c_bno055 docker-deps  && make module=janitoo_raspberry_i2c_bno055 develop && \
+    apt-get clean && rm -Rf /tmp/*||true && \
+    [ -d /root/.cache ] && rm -Rf /root/.cache/*
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_max9744.git" && make module=janitoo_raspberry_i2c_max9744 docker-deps  && make module=janitoo_raspberry_i2c_max9744 develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_pca9685.git" && make module=janitoo_raspberry_i2c_pca9685 docker-deps && make module=janitoo_raspberry_i2c_pca9685 develop && \
