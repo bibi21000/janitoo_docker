@@ -11,6 +11,12 @@ COPY docker/supervisor-tests.conf.d/ /etc/supervisor/janitoo-tests.conf.d/
 
 WORKDIR /opt/janitoo/src
 
+RUN apt-get update && apt-get dist-upgrade -y && \
+    pip install coveralls && \
+    apt-get clean && \
+    rm -Rf /root/.cache/* 2>/dev/null||true && \
+    rm -Rf /tmp/* 2>/dev/null||true
+
 RUN make clone module=janitoo_hostsensor && \
     make clone module=janitoo_hostsensor_psutil && \
     make clone module=janitoo_hostsensor_lmsensor && \
@@ -68,11 +74,6 @@ RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_fishtank.git"
     make module=janitoo_raspberry_fishtank develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
-
-RUN make clone module=janitoo_db_full && \
-    apt-get clean && \
-    rm -Rf /root/.cache/* 2>/dev/null||true && \
-    rm -Rf /tmp/* 2>/dev/null||true
 
 VOLUME ["/root/.ssh/", "/etc/nginx/conf.d/", "/var/log", "/etc/mosquitto/", "/var/lib/mosquitto/", "/etc/supervisor/", "/opt/janitoo/home/", "/opt/janitoo/etc/"]
 
