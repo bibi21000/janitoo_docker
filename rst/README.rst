@@ -404,6 +404,16 @@ janitoo_raspberry_i2c_bno055 :
         :alt: Coveralls results
 
 
+janitoo_raspberry_i2c_ht16k33 :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_ht16k33.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_ht16k33
+        :alt: Travis status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry_i2c_ht16k33/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_raspberry_i2c_ht16k33?branch=master
+        :alt: Coveralls results
+
+
 janitoo_raspberry_i2c_max9744 :
     .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_max9744.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_max9744
