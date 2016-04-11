@@ -39,22 +39,22 @@ RUN make clone module=janitoo_bluez && \
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry.git" && make module=janitoo_raspberry docker-deps && make module=janitoo_raspberry develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_camera.git" && make module=janitoo_raspberry_camera docker-deps  && make module=janitoo_raspberry_camera develop && \
-    apt-get clean && rm -Rf /tmp/*||true && \
-    [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_gpio.git" && make module=janitoo_raspberry_gpio docker-deps && make module=janitoo_raspberry_gpio develop && \
-    apt-get clean && rm -Rf /tmp/*||true && \
-    [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c.git" && make module=janitoo_raspberry_i2c docker-deps && make module=janitoo_raspberry_i2c develop && \
-    apt-get clean && rm -Rf /tmp/*||true && \
-    [ -d /root/.cache ] && rm -Rf /root/.cache/*
 RUN make pull repo="https://github.com/bibi21000/janitoo_hostsensor_raspberry.git" && make module=janitoo_hostsensor_raspberry docker-deps && make module=janitoo_hostsensor_raspberry develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_1wire.git" && make module=janitoo_raspberry_1wire docker-deps  && make module=janitoo_raspberry_1wire develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_camera.git" && make module=janitoo_raspberry_camera docker-deps  && make module=janitoo_raspberry_camera develop && \
+    apt-get clean && rm -Rf /tmp/*||true && \
+    [ -d /root/.cache ] && rm -Rf /root/.cache/*
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_dht.git" && make module=janitoo_raspberry_dht docker-deps && make module=janitoo_raspberry_dht develop && \
+    apt-get clean && rm -Rf /tmp/*||true && \
+    [ -d /root/.cache ] && rm -Rf /root/.cache/*
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_gpio.git" && make module=janitoo_raspberry_gpio docker-deps && make module=janitoo_raspberry_gpio develop && \
+    apt-get clean && rm -Rf /tmp/*||true && \
+    [ -d /root/.cache ] && rm -Rf /root/.cache/*
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c.git" && make module=janitoo_raspberry_i2c docker-deps && make module=janitoo_raspberry_i2c develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_ads1x15.git" && make module=janitoo_raspberry_i2c_ads1x15 docker-deps  && make module=janitoo_raspberry_i2c_ads1x15 develop && \
@@ -75,10 +75,10 @@ RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_max9744.g
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_pca9685.git" && make module=janitoo_raspberry_i2c_pca9685 docker-deps && make module=janitoo_raspberry_i2c_pca9685 develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_lcdchar.git" && make module=janitoo_raspberry_lcdchar docker-deps  && make module=janitoo_raspberry_lcdchar develop && \
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_ili9341.git" && make module=janitoo_raspberry_ili9341 docker-deps  && make module=janitoo_raspberry_ili9341 develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_ili9341.git" && make module=janitoo_raspberry_ili9341 docker-deps  && make module=janitoo_raspberry_ili9341 develop && \
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_lcdchar.git" && make module=janitoo_raspberry_lcdchar docker-deps  && make module=janitoo_raspberry_lcdchar develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 
