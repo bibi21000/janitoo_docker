@@ -75,6 +75,9 @@ RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_max9744.g
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_pca9685.git" && make module=janitoo_raspberry_i2c_pca9685 docker-deps && make module=janitoo_raspberry_i2c_pca9685 develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_vcln40xx.git" && make module=janitoo_raspberry_i2c_vcln40xx docker-deps && make module=janitoo_raspberry_i2c_vcln40xx develop && \
+    apt-get clean && rm -Rf /tmp/*||true && \
+    [ -d /root/.cache ] && rm -Rf /root/.cache/*
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_spi.git" && make module=janitoo_raspberry_spi docker-deps  && make module=janitoo_raspberry_spi develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
