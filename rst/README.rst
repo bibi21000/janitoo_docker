@@ -404,6 +404,16 @@ janitoo_raspberry_i2c_bno055 :
         :alt: Coveralls results
 
 
+janitoo_raspberry_i2c_ds1307 :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_ds1307.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_ds1307
+        :alt: Travis status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry_i2c_ds1307/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_raspberry_i2c_ds1307?branch=master
+        :alt: Coveralls results
+
+
 janitoo_raspberry_i2c_ht16k33 :
     .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_ht16k33.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_raspberry_i2c_ht16k33
@@ -499,4 +509,18 @@ janitoo_raspberry_fishtank :
 
     .. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry_fishtank/badge.svg?branch=master&service=github
         :target: https://coveralls.io/github/bibi21000/janitoo_raspberry_fishtank?branch=master
+        :alt: Coveralls results
+
+
+janitoo_lapinoo :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_lapinoo.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_lapinoo
+        :alt: Travis status
+
+    .. image:: https://circleci.com/gh/bibi21000/janitoo_lapinoo.png?style=shield
+        :target: https://circleci.com/gh/bibi21000/janitoo_lapinoo
+        :alt: Circle status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_lapinoo/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_lapinoo?branch=master
         :alt: Coveralls results
