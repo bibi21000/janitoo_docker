@@ -88,12 +88,12 @@ RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_vcnl40xx.
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_spi.git" && make module=janitoo_raspberry_spi docker-deps  && make module=janitoo_raspberry_spi develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_spi_ili9341.git" && make module=janitoo_raspberry_spi_ili9341 docker-deps  && make module=janitoo_raspberry_spi_ili9341 develop && \
-    apt-get clean && rm -Rf /tmp/*||true && \
-    [ -d /root/.cache ] && rm -Rf /root/.cache/*
-RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_spi_pn532.git" && make module=janitoo_raspberry_spi_pn532 docker-deps  && make module=janitoo_raspberry_spi_pn532 develop && \
-    apt-get clean && rm -Rf /tmp/*||true && \
-    [ -d /root/.cache ] && rm -Rf /root/.cache/*
+#RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_spi_ili9341.git" && make module=janitoo_raspberry_spi_ili9341 docker-deps  && make module=janitoo_raspberry_spi_ili9341 develop && \
+#    apt-get clean && rm -Rf /tmp/*||true && \
+#    [ -d /root/.cache ] && rm -Rf /root/.cache/*
+#RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_spi_pn532.git" && make module=janitoo_raspberry_spi_pn532 docker-deps  && make module=janitoo_raspberry_spi_pn532 develop && \
+#    apt-get clean && rm -Rf /tmp/*||true && \
+#    [ -d /root/.cache ] && rm -Rf /root/.cache/*
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_lcdchar.git" && make module=janitoo_raspberry_lcdchar docker-deps  && make module=janitoo_raspberry_lcdchar develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
