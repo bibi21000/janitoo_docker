@@ -236,6 +236,20 @@ janitoo_manager_proxy :
 Third party modules
 ===================
 
+janitoo_factory_exts :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_factory_exts.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_factory_exts
+        :alt: Travis status
+
+    .. image:: https://circleci.com/gh/bibi21000/janitoo_factory_exts.png?style=shield
+        :target: https://circleci.com/gh/bibi21000/janitoo_factory_exts
+        :alt: Circle status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_factory_exts/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_factory_exts?branch=master
+        :alt: Coveralls results
+
+
 janitoo_roomba :
     .. image:: https://travis-ci.org/bibi21000/janitoo_roomba.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_roomba
@@ -461,6 +475,16 @@ janitoo_raspberry_lcdchar :
 
     .. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry_lcdchar/badge.svg?branch=master&service=github
         :target: https://coveralls.io/github/bibi21000/janitoo_raspberry_lcdchar?branch=master
+        :alt: Coveralls results
+
+
+janitoo_raspberry_sound :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_raspberry_sound.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_raspberry_sound
+        :alt: Travis status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_raspberry_sound/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_raspberry_sound?branch=master
         :alt: Coveralls results
 
 
