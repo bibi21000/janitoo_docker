@@ -548,3 +548,17 @@ janitoo_lapinoo :
     .. image:: https://coveralls.io/repos/bibi21000/janitoo_lapinoo/badge.svg?branch=master&service=github
         :target: https://coveralls.io/github/bibi21000/janitoo_lapinoo?branch=master
         :alt: Coveralls results
+
+
+janitoo_rantanplan :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_rantanplan.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_rantanplan
+        :alt: Travis status
+
+    .. image:: https://circleci.com/gh/bibi21000/janitoo_rantanplan.png?style=shield
+        :target: https://circleci.com/gh/bibi21000/janitoo_rantanplan
+        :alt: Circle status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_rantanplan/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_rantanplan?branch=master
+        :alt: Coveralls results
