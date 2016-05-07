@@ -31,7 +31,7 @@ RUN make clone module=janitoo_factory_exts && \
 RUN make clone module=janitoo_hostsensor && \
     make clone module=janitoo_hostsensor_psutil && \
     make clone module=janitoo_hostsensor_lmsensor && \
-    make docker-inst module=janitoo_hostsensor && \
+    make docker-deps module=janitoo_hostsensor && \
     apt-get clean && rm -Rf /tmp/*|| true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 
