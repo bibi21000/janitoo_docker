@@ -93,6 +93,20 @@ janitoo_db :
         :alt: Coveralls results
 
 
+janitoo_dhcp :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_dhcp.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_dhcp
+        :alt: Travis status
+
+    .. image:: https://circleci.com/gh/bibi21000/janitoo_dhcp.png?style=shield
+        :target: https://circleci.com/gh/bibi21000/janitoo_dhcp
+        :alt: Circle status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_dhcp/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_dhcp?branch=master
+        :alt: Coveralls results
+
+
 janitoo_factory :
     .. image:: https://travis-ci.org/bibi21000/janitoo_factory.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_factory
@@ -561,4 +575,18 @@ janitoo_rantanplan :
 
     .. image:: https://coveralls.io/repos/bibi21000/janitoo_rantanplan/badge.svg?branch=master&service=github
         :target: https://coveralls.io/github/bibi21000/janitoo_rantanplan?branch=master
+        :alt: Coveralls results
+
+
+janitoo_tutorial :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_tutorial.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_tutorial
+        :alt: Travis status
+
+    .. image:: https://circleci.com/gh/bibi21000/janitoo_tutorial.png?style=shield
+        :target: https://circleci.com/gh/bibi21000/janitoo_tutorial
+        :alt: Circle status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_tutorial/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_tutorial?branch=master
         :alt: Coveralls results
