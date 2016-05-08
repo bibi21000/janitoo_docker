@@ -583,10 +583,6 @@ janitoo_tutorial :
         :target: https://travis-ci.org/bibi21000/janitoo_tutorial
         :alt: Travis status
 
-    .. image:: https://circleci.com/gh/bibi21000/janitoo_tutorial.png?style=shield
-        :target: https://circleci.com/gh/bibi21000/janitoo_tutorial
-        :alt: Circle status
-
     .. image:: https://coveralls.io/repos/bibi21000/janitoo_tutorial/badge.svg?branch=master&service=github
         :target: https://coveralls.io/github/bibi21000/janitoo_tutorial?branch=master
         :alt: Coveralls results
