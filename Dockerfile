@@ -118,8 +118,8 @@ RUN make pull repo="https://github.com/bibi21000/janitoo_lapinoo.git" && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 
-VOLUME ["/root/.ssh/", "/etc/nginx/conf.d/", "/var/log", "/etc/mosquitto/", "/var/lib/mosquitto/", "/etc/supervisor/", "/opt/janitoo/home/", "/opt/janitoo/etc/"]
+#VOLUME ["/root/.ssh/", "/etc/nginx/conf.d/", "/var/log", "/etc/mosquitto/", "/var/lib/mosquitto/", "/etc/supervisor/", "/opt/janitoo/home/", "/opt/janitoo/etc/"]
 
-EXPOSE 22 1883 5005 8080 8085 8086 9001
+#EXPOSE 22 1883 5005 8080 8085 8086 9001
 
 CMD ["/root/auto.sh"]
