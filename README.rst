@@ -6,6 +6,10 @@
     :target: https://hub.docker.com/r/bibi21000/janitoo/
     :alt: Docker size
 
+.. image:: https://img.shields.io/badge/Documenation-ok-brightgreen.svg?style=flat
+   :target: https://bibi21000.github.io/janitoo_docker/index.html
+   :alt: Documentation
+
 ====================
 Janitoo docker image
 ====================
