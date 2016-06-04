@@ -339,6 +339,20 @@ janitoo_nut :
         :alt: Coveralls results
 
 
+janitoo_tellstick :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_tellstick.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_tellstick
+        :alt: Travis status
+
+    .. image:: https://circleci.com/gh/bibi21000/janitoo_tellstick.png?style=shield
+        :target: https://circleci.com/gh/bibi21000/janitoo_tellstick
+        :alt: Circle status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_tellstick/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_tellstick?branch=master
+        :alt: Coveralls results
+
+
 Raspberry modules
 =================
 
