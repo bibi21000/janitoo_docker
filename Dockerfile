@@ -77,6 +77,9 @@ RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_bmp.git" 
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_bno055.git" && make module=janitoo_raspberry_i2c_bno055 docker-deps  && make module=janitoo_raspberry_i2c_bno055 develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
+RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_drv8830.git" && make module=janitoo_raspberry_i2c_ds8830 docker-deps  && make module=janitoo_raspberry_i2c_drv8830 develop && \
+    apt-get clean && rm -Rf /tmp/*||true && \
+    [ -d /root/.cache ] && rm -Rf /root/.cache/*
 RUN make pull repo="https://github.com/bibi21000/janitoo_raspberry_i2c_ds1307.git" && make module=janitoo_raspberry_i2c_ds1307 docker-deps  && make module=janitoo_raspberry_i2c_ds1307 develop && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
