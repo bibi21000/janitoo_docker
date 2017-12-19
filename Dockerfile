@@ -121,6 +121,11 @@ RUN make pull repo="https://github.com/bibi21000/janitoo_lapinoo.git" && \
     apt-get clean && rm -Rf /tmp/*||true && \
     [ -d /root/.cache ] && rm -Rf /root/.cache/*
 
+RUN make pull repo="https://github.com/bibi21000/janitoo_solarpump.git" && \
+    make module=janitoo_solarpump develop && \
+    apt-get clean && rm -Rf /tmp/*||true && \
+    [ -d /root/.cache ] && rm -Rf /root/.cache/*
+
 # comment VOLUME ["/root/.ssh/", "/etc/nginx/conf.d/", "/var/log", "/etc/mosquitto/", "/var/lib/mosquitto/", "/etc/supervisor/", "/opt/janitoo/home/", "/opt/janitoo/etc/"]
 
 # comment EXPOSE 22 1883 5005 8080 8085 8086 9001
