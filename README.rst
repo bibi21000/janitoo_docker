@@ -603,6 +603,20 @@ janitoo_rantanplan :
         :alt: Coveralls results
 
 
+janitoo_solarpump :
+    .. image:: https://travis-ci.org/bibi21000/janitoo_solarpump.svg?branch=master
+        :target: https://travis-ci.org/bibi21000/janitoo_solarpump
+        :alt: Travis status
+
+    .. image:: https://circleci.com/gh/bibi21000/janitoo_solarpump.png?style=shield
+        :target: https://circleci.com/gh/bibi21000/janitoo_solarpump
+        :alt: Circle status
+
+    .. image:: https://coveralls.io/repos/bibi21000/janitoo_solarpump/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/bibi21000/janitoo_solarpump?branch=master
+        :alt: Coveralls results
+
+
 janitoo_tutorial :
     .. image:: https://travis-ci.org/bibi21000/janitoo_tutorial.svg?branch=master
         :target: https://travis-ci.org/bibi21000/janitoo_tutorial
